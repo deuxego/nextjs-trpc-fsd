@@ -11,7 +11,7 @@
     "package-lock.json": true,
     "next.config.js": true,
     "postcss.config.cjs": true,
-    "README.md": false,
+    "README.md": true,
     "start-database.sh": true,
     "prettier.config.js": true,
     "components.json": true

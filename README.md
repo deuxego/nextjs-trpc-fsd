@@ -59,10 +59,10 @@ npm install
 
 ### Environment Variables
 
-#### Prisma
+`Prisma`<br>
 DATABASE_URL="postgresql://postgres:password@localhost:5432/t3-stack"
 
-#### Next Auth
+`Next Auth`<br>
 You can generate a new secret on the command line with:
 openssl rand -base64 32
 https://next-auth.js.org/configuration/options#secret
@@ -70,11 +70,11 @@ https://next-auth.js.org/configuration/options#secret
 NEXTAUTH_SECRET=""
 NEXTAUTH_URL="http://localhost:3000"
 
-#### Next Auth Github Provider
+`Next Auth Github Provider`<br>
 GITHUB_CLIENT_ID=""
 GITHUB_CLIENT_SECRET=""
 
-#### Next Auth Discord Provider
+`Next Auth Discord Provider`<br>
 DISCORD_CLIENT_ID=""
 DISCORD_CLIENT_SECRET=""
 

@@ -10,7 +10,7 @@ const fontSans = FontSans({
 });
 
 export const metadata: Metadata = {
-  title: 'Micro Courses',
+  title: 'nextjs-trpc-fsd',
   description: '',
   icons: [{ rel: 'icon', url: '/favicon.ico' }]
 };
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="en">
-      <body className={cn('bg-background min-h-screen font-sans antialiased', fontSans.variable)}>
+      <body className={cn('min-h-screen bg-background font-sans antialiased', fontSans.variable)}>
         <Providers>{children}</Providers>
       </body>
     </html>
